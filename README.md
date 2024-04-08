@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Usage# Scheduler
 
-First, run the development server:
+This project is a simple Scheduler application built with Nextjs, allowing users to visualise and organizate better the activities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Demo GIF](https://github.com/BrunoTaconi/Nextjs-Scheduler/blob/master/public/gif/Next-Scheduler.gif)
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Visual Timeline: Display activities with start and end dates organized in bars, providing a clear overview of project timelines.
+- Progress Indicators: Clearly show the progress of each activity, helping users track the status of tasks and projects.
+- Customizable Appearance: Enhance the scheduler's look with customizable column colors and styles, ensuring it fits seamlessly into any project management workflow.
+- Task Management: Menu options for editing tasks, streamlining the process of managing project components.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run this project locally, follow these steps:
 
-## Learn More
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/BrunoTaconi/Nextjs-Scheduler.git
+   
+2. **Navigate to the project directory:**
+   ```bash
+   cd scheduler
 
-To learn more about Next.js, take a look at the following resources:
+3. **Install dependencies:**
+   ```bash
+   npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Once the installation is complete, you can start the development server:**
+   ```bash
+   npm run dev
+   
+The application will open in your default web browser at http://localhost:3000.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Fork the repository.**
+2. **Create a new branch (git checkout -b feature/your-feature-name).**
+3. **Make your changes.**
+4. **Commit your changes (git commit -am 'Add new feature').**
+5. **Push to the branch (git push origin feature/your-feature-name).**
+6. **Create a new pull request.**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the MIT License.
