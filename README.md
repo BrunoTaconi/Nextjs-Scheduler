@@ -1,5 +1,5 @@
 
-## Usage# Scheduler
+## Usage## Scheduler
 
 This project is a simple Scheduler application built with Nextjs, allowing users to visualise and organizate better the activities.
 
